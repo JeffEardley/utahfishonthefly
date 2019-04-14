@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link type="text/css" href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <div id="homehero">
+            <div class="wrapper">
+                <img src="photos/logo.png" id="logo" alt="Fish on the Fly">
+                <img src="photos/smallLogo.jpeg" id="smallLogo" alt="Fish on the Fly">
+                <h1>Fish on the Fly</h1>
+                <h2>Fly Fishing Products & Utah Guide Service</h2>
+            </div>
+
+            <nav>
+                <div class="wrapper">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                Home
+
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="products.html">
+                                Products
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="schedule.html">
+                                Schedule
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">
+                                About
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="wrapper">
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <span>
+                        <a href="products.html#!/cool-shirt/p/135996485/category=0">
+                            <img src="photos/shirt.jpeg" class="carouselImg">
+                            <div class="text">Shirt One</div>
+                        </a>
+                    </span>
+                </div>
+            
+                <div class="mySlides fade">
+                    <span>
+                        <a href="products.html">
+                            <img src="photos/shirt.jpeg" class="carouselImg">
+                            <div class="text">Shirt Two</div>
+                        </a>
+                    </span>
+                </div>
+            
+                <div class="mySlides fade">
+                    <span>
+                        <a href="products.html">
+                            <img src="photos/shirt.jpeg" class="carouselImg">
+                            <div class="text">Shirt Three</div>
+                        </a>
+                    </span>
+                </div>
+            
+            </div>
+            <br>
+                
+        </div>
+
+        <div id="h3Decoration">
+            <div class="wrapper">
+                <h3>provo river fly fishing guide service</h3>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div id="gallery">
+                <div id="box1">
+                    <div id="img1">
+                        
+                    </div>
+                    <img src="photos/img_1_small.jpeg" id="img1Small" alt="img1">
+                </div>
+                <div id="box2">
+                    <p>
+                        Enjoy the satisfaction and serenity of learning to fly fish in
+                         beautiful locales with a helpful guide at an affordable price.
+                         We offer several different types of trips all days of the week, 
+                         including half day, full day, and overnight trips.
+                          Get your feet wet and jump right in! Schedule a trip today!
+                    </p>
+                </div>
+                <div id="box3">
+                    <div id="img2">
+
+                    </div>
+                </div>
+                <div id="box4">
+                    <div id="img3">
+
+                    </div>
+                    <img src="photos/img_3_small.jpeg" id="img3Small" alt="img3">
+                </div>
+                <div id="box5">
+                    <p>
+                        Want to get into fly fishing but don't know how to get equipped?
+                        We offer all the necessary items to get started including hand 
+                        tied flys, fly rods, and waders. Visit our store and find all 
+                        the essentials of starting your journey towards becoming a true fisherman!
+                    </p>
+                </div>
+                <div id="box6">
+                    <div id="img4">
+
+                    </div>
+                    <img src="photos/img_4_small.jpeg" id="img4Small" alt="img4">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+                <div id="footnote">
+                    <div class="wrapper">
+                        <p id="num">
+                            435-229-5670
+                        </p>
+        
+                        <p id="mail">
+                            jameseardley2@gmail.com
+                        </p>
+                    </div>
+                </div>
+        </footer>
+    </body>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+    </script>
+</html>
+
