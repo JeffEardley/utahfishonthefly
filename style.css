@@ -230,7 +230,7 @@ p{
 
 footer{
     margin-top: 50px;
-    width: 100%
+    width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -268,6 +268,7 @@ a:hover{
   position: relative;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 /* Hide the images by default */
@@ -345,7 +346,7 @@ a:hover{
 }
 
 .carouselImg{
-    width: 25%;
+    width: 35%;
     flex: 1;
 }
 
@@ -429,10 +430,6 @@ body {font-family: Verdana, sans-serif;}
         border-bottom: 1px solid black;
     }
 
-    #shirt{
-        margin: 20 
-    }
-
     .wrapper{
         display: block;
         margin: 0 auto;
@@ -464,17 +461,16 @@ body {font-family: Verdana, sans-serif;}
     }
 
     #box4{
-        float: right;
+        float: right !important;
     }
 
     #box5{
         width: 475px;
-        float: right;
     }
 
-    /* #box6{
-        width: 395;
-    } */
+    #box5 p{
+        padding-left: 0 !important;
+    }
 
     #footnote{
         width: 768px;
@@ -500,6 +496,10 @@ body {font-family: Verdana, sans-serif;}
 
     #gallery div p{
         padding: 0 60px;
+    }
+
+    #slideshow{
+        margin-top: 82px;
     }
 }
 
@@ -575,6 +575,7 @@ body {font-family: Verdana, sans-serif;}
         width: 100%;
         margin: 20px 0px;
         height: auto;
+        margin-top: -30px;
     }
 
     #gallery div p{
@@ -643,6 +644,22 @@ body {font-family: Verdana, sans-serif;}
 
     #aboutImg1{
         width: 35%;
+    }
+
+    #slideshow{
+        margin: 0;
+    }
+
+    .carouselImg{
+        width: 50%;
+    }
+
+    #box4{
+        float: none !important;
+    }
+
+    #box5 p{
+        padding: 20px 50px 20px 50px !important;
     }
 
 }
